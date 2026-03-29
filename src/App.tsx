@@ -2,9 +2,11 @@ import { useState } from "react";
 import LiquidEther from "./components/LiquidEther";
 import ProfileCard from "./components/ProfileCard";
 import IconCloud from "./components/IconCloud";
+import avatarImg from "./components/earl-removebg-preview.png";
 import hydromatic from "./components/hydromatic.jfif";
 import casa from "./components/casa.jfif";
 import shd from "./components/shd.png"
+
 
 const SOCIAL_LINKS = {
   facebook: "https://www.facebook.com/earl.sheik23/",
@@ -176,7 +178,7 @@ export default function Portfolio() {
                   handle="shikkkk"
                   status="Available"
                   contactText="Contact Me"
-                  avatarUrl="src/components/earl-removebg-preview.png"
+                  avatarUrl= {avatarImg}
                   showUserInfo={false}
                   enableTilt={true}
                   enableMobileTilt={false}
