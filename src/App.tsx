@@ -183,10 +183,13 @@ export default function Portfolio() {
                   onContactClick={() => scrollTo("contact")}
                   behindGlowColor="rgba(255,255,255,0.08)"
                   behindGlowEnabled
-                  innerGradient= "linear-gradient(145deg ,
+                 innerGradient={`
+                                linear-gradient(
+                                  145deg,
                                   rgba(5,5,7,0.98) 0%,
                                   rgba(25,25,30,0.65) 100%
-                                )"
+                                )
+                              `}
                 />
               </div>
             </div>
